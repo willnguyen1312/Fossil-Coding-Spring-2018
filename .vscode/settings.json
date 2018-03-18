@@ -1,5 +1,7 @@
 {
   "editor.formatOnSave": true,
   "prettier.eslintIntegration": true,
-  "jest.enableCodeLens": true
+  "jest.enableCodeLens": true,
+  "javascript.validate.enable": true,
+  "javascript.implicitProjectConfig.checkJs": true
 }

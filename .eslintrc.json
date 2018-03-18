@@ -3,7 +3,9 @@
   "extends": "airbnb-base",
   "rules": {
     "semi": ["error", "never"],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "no-restricted-syntax": "off",
+    "import/no-extraneous-dependencies": "off"
   },
   "env": {
     "jest": true

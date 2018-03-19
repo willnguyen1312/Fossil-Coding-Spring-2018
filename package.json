@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
-    "ramda": "^0.25.0"
+    "ramda": "^0.25.0",
+    "string.prototype.matchall": "^2.0.0"
   }
 }

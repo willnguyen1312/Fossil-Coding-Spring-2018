@@ -7,7 +7,7 @@ const pathOut = '/src/problem2/2.out'
 const inputTest = readData(`${pathIn}`)
 const outputTest = readData(`${pathOut}`)
 
-const writeOutPath = '/src/problem1/2.out.nam'
+const writeOutPath = '/src/problem2/2.out.nam'
 
 describe('Problem 2', () => {
   it('should pass the sample tests', () => {

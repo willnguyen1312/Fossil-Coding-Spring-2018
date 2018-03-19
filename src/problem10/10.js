@@ -1,13 +1,4 @@
-/**
- *
- *
- * @param {Number} first
- * @param {Number} second
- * @returns {Number} result
- */
-function sum(first, second) {
-  return first + second
-}
+import sum from '../../utils/sum'
 
 /**
  *

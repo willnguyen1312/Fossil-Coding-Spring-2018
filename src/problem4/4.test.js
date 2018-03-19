@@ -1,13 +1,6 @@
 import { readData, writeData } from '../../utils/io'
 import ultraWake from './4'
-
-function chunks(arr, size) {
-  const output = []
-  for (let i = 0; i < arr.length; i += size) {
-    output.push(arr.slice(i, i + size))
-  }
-  return output
-}
+import chunks from '../../utils/chunk'
 
 const pathIn = '/src/problem4/4.in'
 const pathOut = '/src/problem4/4.out'

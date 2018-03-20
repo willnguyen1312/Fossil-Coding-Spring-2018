@@ -1,11 +1,12 @@
 {
-  "name": "jest-boilerplate",
+  "name": "fossil-spring-coding-challenge-2018",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "jest --coverage",
     "test:report": "jest --coverage && live-server ./coverage/lcov-report",
+    "test:watch": "jest --watch",
     "precommit": "lint-staged",
     "postinstall": "npm test"
   },

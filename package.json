@@ -11,7 +11,11 @@
     "postinstall": "npm test"
   },
   "lint-staged": {
-    "*.js": ["npm test", "eslint --fix ./", "git add"]
+    "*.js": [
+      "npm test",
+      "eslint --fix ./",
+      "git add"
+    ]
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -27,6 +31,7 @@
     "jest": "^22.4.2",
     "lint-staged": "^7.0.0",
     "mkdirp": "^0.5.1",
+    "recursive-readdir": "^2.2.2",
     "regenerator-runtime": "^0.11.1"
   },
   "dependencies": {
